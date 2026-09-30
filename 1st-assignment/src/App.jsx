@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MovieList from "./components/MovieList";
+
 
 function App() {
   const [movies, setMovies] = useState([
@@ -30,7 +30,7 @@ function App() {
       genre: "Mythology",
       year: "2026",
       rating: "10/10",
-    },
+       },
     {
       id: 5,
       title: "Spider-Man: Brand New Day",
@@ -57,3 +57,4 @@ function App() {
 }
 
 export default App;
+
